@@ -22,4 +22,4 @@ function sendNotification(email) {
     }
   }
 }
-// console.log(sendNotification("mdsamanali@gmail.com"));
+
