@@ -8,6 +8,7 @@ function calculateTax(income, expenses) {
     return "Invalid Input";
   }
 }
+
 // Notification Generator
 
 function sendNotification(email) {
@@ -23,3 +24,17 @@ function sendNotification(email) {
   }
 }
 
+// Problem 3 : CheckDigitsInName
+
+function checkDigitsInName(name) {
+  for(let char of name){
+    if (isNaN === -1 && char !== ""){
+       return true;
+    }
+    return false
+  }
+ 
+}
+
+
+console.log("shamin77")
