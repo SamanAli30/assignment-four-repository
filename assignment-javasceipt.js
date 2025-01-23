@@ -28,13 +28,13 @@ function sendNotification(email) {
 
 function checkDigitsInName(name) {
   for(let char of name){
-    if (isNaN === -1 && char !== ""){
+    if (isNaN(char) !== true && char !== ""){
        return true;
     }
-    return false
+   
   }
- 
+  return false
 }
 
 
-console.log("shamin77")
+console.log(checkDigitsInName("shamin77"));
